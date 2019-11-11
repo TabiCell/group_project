@@ -13,7 +13,7 @@ ul li {
  float: left;
  width: 341px;
  height: 40px;
- background-color: black;
+ /* background-color: black; */
  opacity: .8;
  line-height: 40px;
  text-align: center;
@@ -21,14 +21,14 @@ ul li {
 }
 
 ul li a {
- text-decoration: underline;
- color: white;
+ /* text-decoration: underline; */
+ /* color: white; */
  display: block;
 }
 
-ul li a:hover {
+/* ul li a:hover {
  background-color: black;
-}
+} */
 
 ul li ul li{
  display: none;
