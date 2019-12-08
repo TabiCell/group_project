@@ -5,6 +5,14 @@
   <title>Contact</title>
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link href='css/bootstrap.css' rel='stylesheet'>
+  <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script>
+$(document).ready(function(){
+  $("button").click(function(){
+    alert("Thank you for your message. We be in touch soon.");
+  });
+});
+</script>
 
   <meta name="viewport" content="width=device-width,
  initial-scale=1.0"
@@ -21,6 +29,47 @@
   <div class="jumbotron">
   <h1> <img src="./balance.png">Law4All Brighton</h1>
 </div>
+
+<nav class="navbar navbar-expand-sm bg-light justify-content-center">
+
+<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+
+  <ul>
+    <li class="nav-item active">
+      <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+ <li><a href="./Advice.html">Advice</a>
+  <ul>
+   <li><a href="./Advice.html#Team">Our Team</a></li>
+   <li><a href="./Advice.html#Mission">Mission &amp; Vision</a></li>
+  </ul>
+ </li>
+ <li><a href="./Volunteers.html">Volunteers</a>
+  <ul>
+   <li><a href="./Volunteers.html#Professionals">Professionals</a></li>
+   <li><a href="./Volunteers.html#University">University students</a></li>
+  </ul>
+ </li>
+ <li><a href="./contact.html">Contact</a>
+ </li>
+ <form class="form-inline pull-right">
+
+    <div class="form-group form-group-m has-feedback">
+
+        <label class="sr-only" for="search">Search</label>
+        <input type="text" class="form-control" name="q" id="search" placeholder="Search">
+
+      </div>
+
+    <button type="submit" class="btn btn-m btn-success">
+    <span class="glyphicons glyphicons-search" aria-hidden="true"></span>Search
+    </button>
+
+</form>
+</div>
+</nav>
 
 <div>
   <h2>
