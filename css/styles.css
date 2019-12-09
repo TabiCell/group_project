@@ -201,13 +201,7 @@ section{
                   color: #5C3D2E;
               }
 
-              .hakkimizda {
-                  color: #b92b27;
-              }
 
-              .discord {
-                  color: #7289da;
-              }
 
               .icon-btn:hover {
                   transform: scale(1.10);
@@ -227,13 +221,6 @@ section{
                   background-color: #5C3D2E;
               }
 
-              .hakkimizda:hover {
-                  background-color: #b92b27;
-              }
-
-              .discord:hover {
-                  background-color: #7289da;
-              }
 
               a.link {
                   color: inherit;
