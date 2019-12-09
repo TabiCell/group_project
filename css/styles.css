@@ -169,3 +169,72 @@ section{
 
             #contact .container form .required {
               color:#b43838;}
+
+              .social {
+                  margin: 0 auto;
+                  width: 500px;
+                  text-align: center;
+              }
+
+              [class^="icon-btn"] /*.icon-btn*/ {
+                  height: 45px;
+                  width: 45px;
+                  border: 0;
+                  cursor: pointer;
+                  font-size: 30px;
+                  line-height: 45px;
+                  transition: ease-in-out .3s;
+                  border-radius: 30px;
+                  margin-left: 10px;
+                  background-color: #F7F7F7;
+              }
+
+              .twitter {
+                  color: #4099FF;
+              }
+
+              .facebook {
+                  color: #3B5998;
+              }
+
+              .instagram {
+                  color: #5C3D2E;
+              }
+
+              .hakkimizda {
+                  color: #b92b27;
+              }
+
+              .discord {
+                  color: #7289da;
+              }
+
+              .icon-btn:hover {
+                  transform: scale(1.10);
+                  color: #FFFFFF;
+              }
+
+              .twitter:hover {
+                  background-color: #4099FF;
+              }
+
+              .facebook:hover {
+                  background-color: #3B5998;
+              }
+
+
+              .instagram:hover {
+                  background-color: #5C3D2E;
+              }
+
+              .hakkimizda:hover {
+                  background-color: #b92b27;
+              }
+
+              .discord:hover {
+                  background-color: #7289da;
+              }
+
+              a.link {
+                  color: inherit;
+              }
