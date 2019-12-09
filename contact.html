@@ -2,18 +2,30 @@
 <html>
 <head>
 
+  <title>Contact</title>
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link href='css/bootstrap.css' rel='stylesheet'>
-   <meta name="viewport" content="width=device-width,
-  initial-scale=1.0"
+  <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script>
+$(document).ready(function(){
+  $("button").click(function(){
+    alert("Thank you for your message. We be in touch soon.");
+  });
+});
+</script>
 
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Law4All Brighton</title>
+  <meta name="viewport" content="width=device-width,
+ initial-scale=1.0"
 
-  </head>
+ <meta charset="utf-8" />
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+</head>
+
 <body>
-  <section id="index">
+
+
+<section id="contact">
   <div class="jumbotron">
   <h1> <img src="./balance.png">Law4All Brighton</h1>
 </div>
@@ -61,28 +73,33 @@
 
 <div>
   <h2>
-    Home
+    Contact us
   <h2/>
 </div>
 
-<div>
-<p>
-Legal advice is harder than ever to come by in the UK.
-</br>
-That's why Law4All Brighton are here to direct local people towards the legal resources they need.
-</br>
-If you require free and easily accessible basic legal advice we recommend that you contact the <a href="https://www.citizensadvice.org.uk"> Citizens Advice Bureau. </a>
+<div class="container">
 
+<form name="htmlform" method="post">
 
-</p>
-</div>
+<input type="text" name="first_name" placeholder="Name" required>
 
-<div class="container" id='social-buttons' >
-  <button class='btn btn-lg btn-twitter'>Twitter</button>
-  <button class='btn btn-lg btn-facebook'>Facebook</button>
-  <button class='btn btn-lg btn-pinterest'>Pinterest</button>
-</div>
+<input  type="email" name="email" placeholder="Email address" required>
 
+<textarea name="comments" placeholder="Message..." required ></textarea>
+
+<button name="send" type="submit" class="submit">SEND</button>
+
+</form>
+
+  </div>
+
+  <div id='social-buttons' class = "tex-center">
+    <button class='btn btn-lg btn-twitter'>Twitter</button>
+    <button class='btn btn-lg btn-facebook'>Facebook</button>
+    <button class='btn btn-lg btn-pinterest'>Pinterest</button>
+    <br/>
+  </div>
+
+  </section>
 </body>
-</section>
 </html>
