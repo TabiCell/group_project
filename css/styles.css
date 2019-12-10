@@ -226,8 +226,12 @@ section{
                   color: inherit;
               }
 
-
-              .footer {
+              .responsive {
+                width: auto;
+                height: 50%;
+                border-radius: 50%;
+              }
+        .footer {
            position: Bottom;
            left: 0;
            bottom: 0;
